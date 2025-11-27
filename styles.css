@@ -1,23 +1,22 @@
-/* Holder - Flexbox Container */
-.holder {
-  display: flex;                 /* Enable flexbox */
-  flex-direction: row;           /* Arrange items in a row */
-  justify-content: space-between;/* Space between items, first & last touch edges */
-  flex-wrap: wrap;               /* Wrap items to next line if needed */
-  align-items: center;           /* Center vertically */
-  gap: 20px;                     /* Optional: visual spacing between lines */
-  padding: 20px;                 /* Add spacing inside container */
+
+/* Your CSS Code here. */
+.divs{
+	height:120px;
+	width:120px;
+}
+.div1{
+	background-color:green;
 }
 
-/* Items - Flexbox Children */
-.item {
-  width: 100px;                  /* Fixed width */
-  height: 100px;                 /* Fixed height */
-  color: white;                  /* Text color */
-  font-size: 24px;               /* Big number */
-  font-weight: bold;             /* Bold text */
-  display: flex;                 /* Use flexbox for text centering */
-  align-items: center;           /* Center vertically */
-  justify-content: center;       /* Center horizontally */
-  border-radius: 6px;            /* Optional: rounded edges */
+.div2{
+	background-color:red;
+}
+
+.div3{
+	background-color:blue;
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
